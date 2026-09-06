@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <title>Nias Slot Machine</title>
+    <link rel="stylesheet" href="my-slot-machine-NCPEttis.css">
+</head>
+<body>
+    <h1> Alpha-BET😉 Slots</h1>
+    <div class = "slotBody">
+        <section class = "creditWindows">
+         <p> WALLET<div class= "moneyHere" id="wallet"> 1000</div> credits</p>
+         <p> WINS<div class= "moneyHere" id="wins"> </div> credits</p>
+        </section>
+
+        <section class="reelContainer">
+            <div class="reel" id="reelOne">A</div>
+            <div class="reel" id="reelTwo">B</div>
+            <div class="reel" id="reelThree">C</div>
+        </section>
+        <section class="startGame">
+        <p> Bet no less than $5 and no more than $50.</p>
+
+        <label for="Place Bet">Place Bet:</label>
+        <input list="placeBet" id="num" name="Place Bet" />
+
+        <datalist id="placeBet">
+            <option value="5"></option>
+            <option value="10"></option>
+            <option value="15"></option>
+            <option value="20"></option>
+            <option value="50"></option>
+        </datalist>
+
+        <input type="button" value="BET" id="bet"/>
+
+         <input type="button" value="Cash Out" id="cashOut" />
+        </section>
+    </div>
+    
+
+    <script src="my-slot-machine-NCPEttis.js"></script>
+</body>
+</html>
