@@ -30,4 +30,4 @@ A slot machine game. Select your bet from 5 to 50 credits. Once you hit BET the 
 ![Slot Machine application interface](slots-screenshot.png)
 ![Slot Machine application interface](slots-screenshot(2).png)
 
-The interface displays an input to add items to complete, each item then displays and has the option to be checked off as completed or completely deleted.
+The interface displays a "wallet" of 1000 credits, a box to keep track of winning credit amount, 3 reels that randomize when bet is placed, a bet selection input, "Cash Out" button to reset game. 
